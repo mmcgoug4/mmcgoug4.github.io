@@ -1,0 +1,166 @@
+html{
+	background-image: url("../images/bats.gif");
+	background-repeat:repeat;
+}
+
+header img{
+	float: left;
+
+}
+
+header > h1{
+	padding-left: 80px;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+
+header > h2{
+	margin-top: 0;
+	padding-left: 85px;
+	margin-left: 30px;
+}
+
+header{
+	vertical-align: middle;
+	margin: 0;
+	padding: 1px;
+	border-bottom: 2px solid;
+	background: linear-gradient(45deg, white, orange, black);
+}
+
+.horizontal_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#left-sidebar{
+	list-style-type: none;
+	padding: 0;
+	position: absolute;
+	vertical-align: top;
+	top: 90px;
+	width: 160px;
+	float: left;
+}
+
+#props, #costumes, #specialfx, #masks {
+    display: block;
+	padding-bottom: 10px;
+	padding-top: 0px;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    width: 100px;
+	height: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+	margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#props: link{
+	margin-top: 50px;
+}
+
+nav{
+	
+	margin-top: 20px;
+	float: left;
+	width: 160px;
+	clear: both;
+	height: 700px;
+	padding: 5px;
+	
+}
+
+a:link{
+	color: orange;
+}
+
+
+a:visited{
+	color: orange;
+}
+
+a:hover{
+	color: green;	
+}
+
+a:focus{
+	color: green;
+}
+
+li{
+	float: left;
+	margin: 0;
+	padding: .4em;
+}
+
+#decorate_link: link, #home_link: link, #product_link: link, #email_link: link, #personal_link: link{
+	display: block;
+	width: 150px;
+	height: 20px;
+	font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 14px;
+    padding: 4px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+#home_link: hover, #decorate_link: hover, #home_link: hover, #product_link: hover, #email_link: hover, #personal_link: hover{
+    background-color: grey;
+    font-size: 14px;
+    color:black;
+}
+
+#email_link: link{
+	width: 150px
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: sans-serif;
+	max-width: 800px;
+	background-color: white;
+	border-style: solid;
+	border-width: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px 10px;
+}
+
+main{
+	padding: 20px;
+	padding-left: 30px;
+	margin-top: -20px;
+}
+
+main h1::first-letter{
+	font-size: 200%;
+}
+
+footer{
+	margin-top: -10px;
+	height: 50px;
+	font-size: 16px;
+	border-top: 2px solid;
+	background: linear-gradient(45deg, black, orange, white);
+}
+
+footer > p{
+	text-align: center;
+}
+
