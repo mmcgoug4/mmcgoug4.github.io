@@ -1,0 +1,119 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", "sans-serif";
+  text-rendering: optimizeLegibility;
+  font-weight: 200;
+  font-size: 20px;
+  color: black;
+}
+body {
+  background-color: white;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+#container {
+  background-color: green;
+  margin: 1em;
+  padding: 1%;
+  width: 50%;
+  margin-left: 25%;
+}
+.images {
+  background-color: black;
+  padding: 1%;
+}
+#playercards {
+  margin: 0 auto;
+  padding: 0.5%;
+  background-color: green;
+  height: 200px;
+}
+#dealercards {
+  margin: 0 auto;
+  padding: 1%;
+  background-color: darkgreen;
+  height: 200px;
+}
+.dealreset {
+  display: block;
+  text-align: center;
+}
+button.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#dealBtn,
+#resetBtn {
+  width: 15%;
+  height: 10%;
+  display: inline-block;
+  position: relative;
+  margin: 1% 30%;
+  border-radius: 20px 2px;
+  overflow-wrap: break-word;
+
+}
+.hitstand {
+  display: block;
+  text-align: center;
+}
+#hitBtn,
+#standBtn {
+  width: 15%;
+  height: 10%;
+  display: inline-block;
+  margin: 0.5% 15%;
+  position: relative;
+  border-radius: 1% 2%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+input[type=text] {
+  border-radius: 5%;
+}
+.sumdisplay {
+  display: block;
+  text-align: center;
+}
+#playersum,
+#dealersum {
+  display: block;
+  margin: 1% auto;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  padding: 1px;
+  max-width: 100%
+}
+#show {
+  margin-top: 1%;
+  text-align: left;
+  display: inline-block;
+}
+#resultbox {
+  display: inline-block;
+  max-width: 85%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #5500ff;
+}
+#counter {
+  display: inline-block;
+  margin-top: 1%;
+  text-align: center;
+}
+
+
+a:link {
+  text-decoration: none;
+}
+a:hover,
+a:visited {
+  color: red;
+}
